@@ -1,0 +1,95 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.main-container{
+    min-height: 100vh; 
+    /* viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+     color: white; 
+}
+.timer{
+    font-weight: 500;
+    font-size: 168px;
+    line-height: 168px;
+    background: linear-gradient(to right, rgb(103, 103, 255), rgb(67, 255, 130));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.timer-content{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    
+    background: linear-gradient(to right, rgb(103, 103, 255), rgb(67, 255, 130));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.memo-wrapper{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+        background: linear-gradient(to bottom, rgb(42, 117, 255), rgb(255, 255, 255));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.memo{
+    font-size: 30px;
+        background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 255));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.modal-body{
+    margin: 100px 20px;
+
+}
+.card{
+     margin: 10px; 
+}
+.card-header{
+    
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-body{
+    background-color:rgb(255, 255, 255);
+    color: black;
+    border:none;
+        padding-left: 100px;
+    
+}
+
+.modal-button{
+    
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border: 1px ;
+
+}
+
+.weather-icon{
+    border: none;
+    background-color: transparent;
+    display: flex;
+}
+
+.memo-input{
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    /* background-color: rgb(190, 190, 190); */
+    /* outline: none; */
+}

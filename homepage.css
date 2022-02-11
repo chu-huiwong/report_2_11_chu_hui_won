@@ -1,0 +1,33 @@
+nav{
+    z-index: 99; 
+    /* 최상단에 놓는다. */
+    color:cornflowerblue;
+}
+
+
+.skil-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+}
+
+.carousel-item img{
+    height: 100hv;
+} 
+
+
+/* .sort-center{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+border: 1px solid beige;
+} */
+
+.pt-5{
+position: relative;
+
+}
